@@ -1,6 +1,13 @@
 {
   "name": "final-form-scroll-to-errors",
   "version": "0.1.0",
+  "keywords": [
+    "final-form-focus",
+    "form-focus",
+    "final-form-scroll-to-errors",
+    "scroll-into-view-if-needed",
+    "react-form-scroll"
+  ],
   "homepage": "https://github.com/yonycalsin/final-form-scroll-to-errors#readme",
   "bugs": {
     "url": "https://github.com/yonycalsin/final-form-scroll-to-errors/issues"
@@ -9,13 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/yonycalsin/final-form-scroll-to-errors.git"
   },
-  "keywords": [
-    "final-form-focus",
-    "form-focus",
-    "final-form-scroll-to-errors",
-    "scroll-into-view-if-needed",
-    "react-form-scroll"
-  ],
   "license": "MIT",
   "author": "Yony Calsin",
   "main": "dist/index.js",
@@ -28,14 +28,14 @@
     "analyze": "size-limit --why",
     "build": "tsdx build",
     "build-storybook": "build-storybook",
+    "format": "npm run prettier -- --write",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
     "size": "size-limit",
     "start": "tsdx watch",
     "storybook": "start-storybook -p 6006",
-    "test": "tsdx test --passWithNoTests",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
-    "format": "npm run prettier -- --write"
+    "test": "tsdx test --passWithNoTests"
   },
   "husky": {
     "hooks": {
@@ -65,6 +65,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
+    "semantic-release": "^18.0.1",
     "size-limit": "^7.0.4",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
@@ -72,9 +73,6 @@
   },
   "peerDependencies": {
     "react": ">=16"
-  },
-  "engines": {
-    "node": ">=10"
   },
   "size-limit": [
     {
