@@ -74,6 +74,11 @@
   "peerDependencies": {
     "react": ">=16"
   },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "size-limit": [
     {
       "path": "dist/final-form-scroll-to-errors.cjs.production.min.js",
