@@ -2,7 +2,7 @@
 
 Decorator for 🏁 Final Form that will attempt to apply focus to the first field with an error upon an attempted form submission.
 
-[![CI](https://github.com/yonycalsin/final-form-scroll-to-errors/actions/workflows/ci.yml/badge.svg)](https://github.com/yonycalsin/final-form-scroll-to-errors/actions/workflows/ci.yml)
+[![CI](https://github.com/yonycalsin/final-form-scroll-to-errors/actions/workflows/main.yml/badge.svg)](https://github.com/yonycalsin/final-form-scroll-to-errors/actions/workflows/main.yml)
 <a href="https://github.com/yonycalsin/final-form-scroll-to-errors"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
 <a href="https://www.npmjs.com/final-form-scroll-to-errors" target="_blank">
 <img src="https://img.shields.io/npm/v/final-form-scroll-to-errors" alt="NPM Version" /></a>
