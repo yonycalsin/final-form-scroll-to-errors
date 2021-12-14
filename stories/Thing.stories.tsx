@@ -1,6 +1,9 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Thing, Props } from '../src';
+
+interface Props {}
+
+const Thing = () => <></>;
 
 const meta: Meta = {
   title: 'Welcome',
