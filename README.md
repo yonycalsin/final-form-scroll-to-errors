@@ -15,7 +15,7 @@ Decorator for 🏁 Final Form that will attempt to apply focus to the first fiel
 <a href="https://twitter.com/yonycalsin" target="_blank">
 <img src="https://img.shields.io/twitter/follow/yonycalsin.svg?style=social&label=Follow"></a>
 
-## 🍉 Installation
+## Installation
 
 > First we will have to install, in order to use this wonderful package.
 
@@ -27,7 +27,7 @@ npm install --save final-form-scroll-to-errors@latest
 yarn add final-form-scroll-to-errors@latest
 ```
 
-## 🌎 Usage
+## Usage
 
 final-form-scroll-to-errors uses the scroll-into-view-if-needed package, so we invite you to check the documentation https://github.com/stipsan/scroll-into-view-if-needed
 
@@ -52,15 +52,15 @@ const scrollOnErrors = createDecorator()
 />
 ```
 
-## 🎩 Stay in touch
+## Stay in touch
 
 - Github [@yonycalsin](https://github.com/yonycalsin)
 - Twitter [@yonycalsin](https://twitter.com/yonycalsin)
 
-## 🚀 Contributors
+## Contributors
 
 Thanks to the wonderful people who collaborate with me !
 
-## 📜 License
+## License
 
 `final-form-scroll-to-errors` under [License MIT.](LICENSE)
