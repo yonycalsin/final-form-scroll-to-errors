@@ -1,4 +1,4 @@
-# Final Form Scroll To Errors
+# final-form-scroll-to-errors
 
 Decorator for 🏁 Final Form that will attempt to apply focus to the first field with an error upon an attempted form submission.
 
